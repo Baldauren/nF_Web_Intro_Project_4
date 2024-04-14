@@ -1,0 +1,62 @@
+.Actions-list-item {
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px 0;
+  padding: 0;
+  width: 654px;
+  height: 24px;
+  list-style-type: none;
+}
+
+.Call-modal-window {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-image: url("./image/CallModalWindow.svg");
+}
+
+.Call-modal-window-img {
+  width: 2.5px;
+  height: 10px;
+  position: absolute;
+  left: 45.83%;
+  right: 43.75%;
+  top: 29.17%;
+  bottom: 29.17%;
+
+  background: #aeaeae;
+}
+
+.Action-checkbox-container {
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  margin: 0 8px 0 0;
+  padding: 0;
+}
+
+.Action-checkbox {
+  width: 16px;
+  height: 16px;
+  left: 4px;
+  top: 4px;
+  border: 1.4px solid #aeaeae;
+  border-radius: 4px;
+  background-color: #712fff;
+}
+
+.Action-title {
+  width: 598px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  align-items: center;
+  color: #151517;
+}

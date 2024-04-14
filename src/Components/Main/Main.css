@@ -1,0 +1,246 @@
+.Main {
+  margin: 0;
+  padding: 0;
+}
+
+.Action-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  margin: 0 0 58px 0;
+  padding: 0;
+}
+
+.Buttons-list {
+  display: grid;
+  grid-template-columns: repeat(4, 90px);
+  column-gap: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 408px;
+  height: 52px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.Button-add-action {
+  width: 52px;
+  height: 52px;
+  background-image: url("./images/CallModalAddAction.svg");
+  background-color: rgb(237, 199, 149);
+  border: none;
+}
+
+.Mode-selected {
+  background: rgba(8, 30, 52, 0.42);
+  color: #ffffff;
+}
+
+.Display-status {
+  width: 1280px;
+  height: 28px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #151517;
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+
+.Set-display-mode {
+  display: block;
+  margin: 0;
+  padding: 10px 24px;
+  width: 87px;
+  height: 40px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #091623;
+
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 86px;
+  height: 40px;
+}
+
+.Mode-selected {
+  display: block;
+  margin: 0;
+  padding: 8px 24px;
+  width: 87px;
+  height: 40px;
+  background: rgba(8, 30, 52, 0.42);
+  border-radius: 100px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Actions-list {
+  margin: 0;
+  padding: 0;
+  width: 654px;
+  min-height: 184px;
+}
+
+.Modal-window-add-action {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: flex-start;
+  width: 270px;
+  height: 230px;
+  background-color: #e4e6e7;
+  margin: 0 0 0 auto;
+  position: absolute;
+  top: 30px;
+  right: 220px;
+  background-color: #6c9062;
+}
+
+.Modal-window-add-action-ception {
+  color: black;
+  width: 500px;
+}
+
+.New-action-text {
+  background-color: white;
+  height: 120px;
+  margin: 0 0 20px 0;
+  overflow: auto; /* Добавляем прокрутку */
+}
+
+.Add-new-action-to-list {
+  background-color: black;
+  width: 55px;
+  height: 30px;
+  color: white;
+  border-radius: 20px;
+}
+
+.Modal-window-for-todo-list {
+  padding: 12px 0px 12px 4px;
+  width: 240px;
+  height: 48px;
+  background: #e4e6e7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  box-sizing: border-box;
+
+  position: absolute;
+  top: 530px;
+  right: 400px;
+}
+
+.Move-to-trash-button-container {
+  display: grid;
+  grid-template-columns: 24px 200px;
+  column-gap: 12px;
+  margin: 0;
+  padding: 0;
+  width: 236px;
+  height: 24px;
+}
+
+.Move-to-trash-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./images/MoveToTrashIcon.svg");
+}
+
+.Move-to-trash-text {
+  display: block;
+  width: 200px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353535;
+}
+
+.Modal-window-for-trash-list {
+  width: 240px;
+  height: 82px;
+  padding: 20px;
+  background: #e4e6e7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  position: absolute;
+  top: 500px;
+  right: 300px;
+  margin-bottom: 10px;
+}
+
+.Delete-forever-button-container {
+  display: grid;
+  grid-template-columns: 24px 200px;
+  column-gap: 12px;
+  margin: 0;
+  padding: 0;
+  width: 236px;
+  height: 24px;
+}
+
+.Delete-forever-button {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("./images/DeleteForever.svg");
+}
+
+.Delete-forever-text {
+  width: 200px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353535;
+}
+
+.Move-to-todo-button-container {
+  display: grid;
+  grid-template-columns: 24px 200px;
+  column-gap: 12px;
+  margin: 0;
+  padding: 0;
+  width: 240px;
+  height: 24px;
+}
+
+.Move-to-todo-button {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-image: url("./images/MoveToToDo.svg");
+  background-repeat: no-repeat;
+}
+
+.Move-to-todo-text {
+  width: 200px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #353535;
+}
